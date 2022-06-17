@@ -16,6 +16,14 @@ const explorersInNodeToGetUsernames = explorers.filter((explorer) => explorer.mi
 const usernamesInNode = explorersInNodeToGetUsernames.map((explorer) => explorer.githubUsername);
 //console.log(usernamesInNode)
 
+
+const ExplorerService = require("./lib/services/ExplorerService"); 
+
+const AmountOfExplorersByMission = ExplorerService.getAmountOfExplorersByMission(explorers, "node");
+
+console.log("AmountOfExplorersByMission: "+ AmountOfExplorersByMission)
+
+
 // DEAD CODE: Part 5,6,7, please remove this and go to Part 8!
 
 // Part 5: Get a new list of explorers in node, if the score numbers is divisible by 3, I need a new propery called trick, and the value assigned is FIZZ, if not the value should be the score itself.
