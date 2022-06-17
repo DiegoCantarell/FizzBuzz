@@ -23,6 +23,9 @@ const AmountOfExplorersByMission = ExplorerService.getAmountOfExplorersByMission
 
 console.log("AmountOfExplorersByMission: "+ AmountOfExplorersByMission)
 
+const ExplorersUsernamesByMission = ExplorerService.getExplorersUsernamesByMission(explorers, "node");
+
+console.log("Explorers usernames by mission: "+ ExplorersUsernamesByMission) 
 
 // DEAD CODE: Part 5,6,7, please remove this and go to Part 8!
 
