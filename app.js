@@ -19,13 +19,16 @@ const usernamesInNode = explorersInNodeToGetUsernames.map((explorer) => explorer
 
 const ExplorerService = require("./lib/services/ExplorerService"); 
 
+const explorersOnlyInNode = ExplorerService.filterByMission(explorers, "node");
+console.log("Explorers only in Node:\n"+ explorersOnlyInNode+"\n")
+
 const AmountOfExplorersByMission = ExplorerService.getAmountOfExplorersByMission(explorers, "node");
 
-console.log("AmountOfExplorersByMission: "+ AmountOfExplorersByMission)
+console.log("AmountOfExplorersByMission: \n"+ AmountOfExplorersByMission+"\n")
 
 const ExplorersUsernamesByMission = ExplorerService.getExplorersUsernamesByMission(explorers, "node");
 
-console.log("Explorers usernames by mission: "+ ExplorersUsernamesByMission) 
+console.log("Explorers usernames by mission: \n"+ ExplorersUsernamesByMission+"\n") 
 
 // DEAD CODE: Part 5,6,7, please remove this and go to Part 8!
 
