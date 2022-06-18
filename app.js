@@ -7,6 +7,8 @@ const fs = require("fs");
 const Reader = require("./lib/utils/Reader");
 const explorers = Reader.readJsonFile("explorers.json"); // esto regresa la lista de explorers del archivo
 
+
+/*
 // Part 2: Get the quantity of explorers names in node
 const explorersInNode = explorers.filter((explorer) => explorer.mission == "node");
 //console.log(explorersInNode.length)
@@ -15,7 +17,7 @@ const explorersInNode = explorers.filter((explorer) => explorer.mission == "node
 const explorersInNodeToGetUsernames = explorers.filter((explorer) => explorer.mission == "node");
 const usernamesInNode = explorersInNodeToGetUsernames.map((explorer) => explorer.githubUsername);
 //console.log(usernamesInNode)
-
+*/
 
 const ExplorerService = require("./lib/services/ExplorerService"); 
 
