@@ -4,7 +4,8 @@
   "description": "FizzBuzz Project",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/.bin/jest"
+    //"test": "node ./node_modules/.bin/jest"
+    "test": "node ./node_modules/.bin/jest --forceExit --maxWorkers=1 --watch"
   },
   "repository": {
     "type": "git",
