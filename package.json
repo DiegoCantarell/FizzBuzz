@@ -4,7 +4,7 @@
   "description": "FizzBuzz Project",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/.bin/jest
+    "test": "node ./node_modules/.bin/jest"
      
   },
   "repository": {
