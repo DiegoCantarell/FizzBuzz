@@ -22,16 +22,16 @@ const usernamesInNode = explorersInNodeToGetUsernames.map((explorer) => explorer
 const ExplorerService = require("./lib/services/ExplorerService"); 
 
 const explorersOnlyInNode = ExplorerService.filterByMission(explorers, "node");
-console.log("Explorers only in Node:\n"+ explorersOnlyInNode+"\n")
+console.log("Explorers only in Node:\n"+ explorersOnlyInNode+"\n");
 
 const AmountOfExplorersByMission = ExplorerService.getAmountOfExplorersByMission(explorers, "node");
 
-console.log("AmountOfExplorersByMission: \n"+ AmountOfExplorersByMission+"\n")
+console.log("AmountOfExplorersByMission: \n"+ AmountOfExplorersByMission+"\n");
 
 const ExplorersUsernamesByMission = ExplorerService.getExplorersUsernamesByMission(explorers, "node");
 
-console.log("Explorers usernames by mission: \n"+ ExplorersUsernamesByMission+"\n") 
+console.log("Explorers usernames by mission: \n"+ ExplorersUsernamesByMission+"\n"); 
 
 const FizzBuzzService = require("./lib/services/FizzBuzzService"); 
 const value = FizzBuzzService.applyValidationInExplorer(explorers);
-console.log(value)
+console.log(value);

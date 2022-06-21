@@ -1,8 +1,8 @@
-const Reader = require('./../../lib/utils/Reader')
-    describe("Unit Test for Reader Class", () => {
+const Reader = require("./../../lib/utils/Reader");
+describe("Unit Test for Reader Class", () => {
 	
-	test('Create a Reader -> readJsonFile(filePath)', () =>{
-		//Here goes the code to use in the app
+    test("Create a Reader -> readJsonFile(filePath)", () =>{
+        //Here goes the code to use in the app
 	    
         /*const path = {
             "name": "Woopa1",
@@ -17,10 +17,10 @@ const Reader = require('./../../lib/utils/Reader')
             }
         */
 
-        const path = "explorers.json"
-        const result = Reader.readJsonFile(path)
+        const path = "explorers.json";
+        const result = Reader.readJsonFile(path);
 
-		//expect(user.bio).toBe("Bio")
-		expect(result).not.toBeUndefined()
-	});
-})
+        //expect(user.bio).toBe("Bio")
+        expect(result).not.toBeUndefined();
+    });
+});
