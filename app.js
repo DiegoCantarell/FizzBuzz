@@ -19,7 +19,7 @@ const usernamesInNode = explorersInNodeToGetUsernames.map((explorer) => explorer
 //console.log(usernamesInNode)
 */
 
-const ExplorerService = require("./lib/services/ExplorerService"); 
+const ExplorerService = require("./lib/services/ExplorerService");
 
 const explorersOnlyInNode = ExplorerService.filterByMission(explorers, "node");
 console.log("Explorers only in Node:\n"+ explorersOnlyInNode+"\n");
@@ -30,8 +30,24 @@ console.log("AmountOfExplorersByMission: \n"+ AmountOfExplorersByMission+"\n");
 
 const ExplorersUsernamesByMission = ExplorerService.getExplorersUsernamesByMission(explorers, "node");
 
-console.log("Explorers usernames by mission: \n"+ ExplorersUsernamesByMission+"\n"); 
+console.log("Explorers usernames by mission: \n"+ ExplorersUsernamesByMission+"\n");
 
-const FizzBuzzService = require("./lib/services/FizzBuzzService"); 
+const FizzBuzzService = require("./lib/services/FizzBuzzService");
 const value = FizzBuzzService.applyValidationInExplorer(explorers);
 console.log(value);
+
+const ExplorerController = require("./lib/controllers/ExplorerController");
+
+
+console.log("\tResultado #1\n");
+const resultExplorerControllerByMission = ExplorerController.getExplorersByMission("node");
+console.log(resultExplorerControllerByMission);
+
+console.log("\tResultado #2\n");
+const resultExplorerControllerUsernamesByMission = ExplorerController.getExplorersUsernamesByMission("node");
+console.log(resultExplorerControllerUsernamesByMission);
+
+
+console.log("\tResultado #3\n");
+const resultAmount = ExplorerController.getExplorersAmountByMission("node");
+console.log(resultAmount);
