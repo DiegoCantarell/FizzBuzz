@@ -17,4 +17,10 @@ describe('Test for ExplorerController',() => {
     })
 
 
+    test('#3 Test for Static Method getExplorersAmountByMission',() => {
+        mission = "node"
+        expect(ExplorerController.getExplorersAmountByMission(mission)).toBeDefined();
+        expect(ExplorerController.getExplorersAmountByMission(mission)).not.toBeUndefined()
+        expect(ExplorerController.getExplorersAmountByMission(mission)).toBe(10)
+    })
 })
