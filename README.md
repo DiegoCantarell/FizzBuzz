@@ -7,7 +7,7 @@
 # Requirement 2: Automation Testing Using GitHub Actions.
 # Requirement 3: Linter. 
 - ESLinter to format the code.
-# Requirement 3: Create an API to expose the functionalities
+# Requirement 4: Create an API to expose the functionalities
 
 - API with Express JS
 
