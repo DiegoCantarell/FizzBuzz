@@ -9,6 +9,8 @@
 - ESLinter to format the code.
 # Requirement 3: Create an API to expose the functionalities
 
+- API with Express JS
+
 | Endpoint | Request | Response |
 |---|---|---|
 | `localhost:3000/v1/explorers/:mission` | `localhost:3000/v1/explorers/node` | Get the explorer list based in the mission you sent (node)  |
