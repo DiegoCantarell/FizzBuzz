@@ -29,5 +29,11 @@
   },
   "dependencies": {
     "express": "^4.18.1"
+  },
+   "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
   }
 }
