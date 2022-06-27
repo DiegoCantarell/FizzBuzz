@@ -1,14 +1,13 @@
 # FizzBuzz
 
-## Requirement 1: Refactoring the code base and adding Unit Test.
+# Requirement 1: Refactoring the code base and adding Unit Test.
 - Functionality in classes.
 - Directory structure.
 - Tests.
-## Requirement 2: Automation Testing Using GitHub Actions.
-## Requirement 3: Linter. 
+# Requirement 2: Automation Testing Using GitHub Actions.
+# Requirement 3: Linter. 
 - ESLinter to format the code.
-## Requirement 3: Create an API to expose the functionalities
-# 2 Crea un API para exponer nuestras funcionalidades
+# Requirement 3: Create an API to expose the functionalities
 
 | Endpoint | Request | Response |
 |---|---|---|
