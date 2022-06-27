@@ -3,6 +3,9 @@
 # Requirement 1: Refactoring the code base and adding Unit Test.
 - Functionality in classes.
 - Directory structure.
+- Services: classes to apply logic that we need using models.
+- Utils: helper classes.
+- Controllers: Exclusive use of services.
 - Tests.
 # Requirement 2: Automation Testing Using GitHub Actions.
 # Requirement 3: Linter. 
