@@ -42,4 +42,18 @@ describe('User Endpoints Tests', () => {
         })
     })
 
+
+   test('GET / -> #4 Test for get the explorers usernames', () => {
+       return request(app)
+       .get("/v1/explorers/usernames/:mission")
+       .then(response => {
+        expect(response.statusCode).toBe(200);
+        expectedText3 = ("{\"mission\":\":mission\",\"usernames\":[\"ajolonauta1\",\"ajolonauta2\",\"ajolonauta3\",\"ajolonauta4\",\"ajolonauta5\",\"ajolonauta11\",\"ajolonauta12\",\"ajolonauta13\",\"ajolonauta14\",\"ajolonauta15\"]}")
+        expect(response.text).toBe(expectedText3);
+       // done();
+        })
+    })
+
+
+
 })
