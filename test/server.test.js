@@ -15,4 +15,20 @@ describe('User Endpoints Tests', () => {
         //done();
         })
     })
+
+
+   test('GET / -> #2 Test for get the explorers names', () => {
+       return request(app)
+       .get("/v1/explorers/:mission")
+       .then(response => {
+        //expect(response.json).toBe("FizzBuzz Api welcome!");
+        expect(response.statusCode).toBe(200);
+
+        const expectedText1 = ("[\"Woopa1\",\"Woopa2\",\"Woopa3\",\"Woopa4\",\"Woopa5\",\"Woopa11\",\"Woopa12\",\"Woopa13\",\"Woopa14\",\"Woopa15\"]")
+        expect(response.text).toBe(expectedText1);
+       // done();
+        })
+    })
+
+
 })
