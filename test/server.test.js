@@ -30,5 +30,16 @@ describe('User Endpoints Tests', () => {
         })
     })
 
+   test('GET / -> #3 Test for get the explorers amount', () => {
+       return request(app)
+       .get("/v1/explorers/amount/:mission")
+       .then(response => {
+        //expect(response.json).toBe("FizzBuzz Api welcome!");
+        expect(response.statusCode).toBe(200);
+        expectedText2 = ("{\"mission\":\":mission\",\"quantity\":10}")
+        expect(response.text).toBe(expectedText2);
+       // done();
+        })
+    })
 
 })
