@@ -13,8 +13,8 @@ describe("3. Test for FizzBuzzService",() => {
                 "elm"
             ]
         },
-   
-    
+
+
         {
             "name": "Woopa2",
             "githubUsername": "ajolonauta2",
@@ -26,8 +26,8 @@ describe("3. Test for FizzBuzzService",() => {
                 "elm"
             ]
         },
-                        
-    
+
+
 
         {
             "name": "Woopa3",
@@ -40,9 +40,9 @@ describe("3. Test for FizzBuzzService",() => {
                 "elm"
             ]
         },
-                        
-    
-    
+
+
+
         {
             "name": "Woopa4",
             "githubUsername": "ajolonauta4",
@@ -54,14 +54,14 @@ describe("3. Test for FizzBuzzService",() => {
                 "elm"
             ]
         }
-    ];  
+    ];
 
 
-    test("3. Validate the functionality of FizzBuzzService",() => { 
-        
+    test("3 -> #1 Validate the functionality of FizzBuzzService IN EXPLORER",() => {
+
         expect(FizzBuzzService.applyValidationInExplorer(userTest)).not.toBeUndefined();
         const userInTest = FizzBuzzService.applyValidationInExplorer(userTest);
-        //Test for cases with modules different than 0 using 3 or 5 as divisors 
+        //Test for cases with modules differents than 0 using 3 or 5 as divisors
         expect(userInTest[0].trick).toBe(1);
         //Test for cases with modules equal to 0 using 3 as a divisor
         expect(userInTest[1].trick).toBe("FIZZ");
@@ -74,4 +74,22 @@ describe("3. Test for FizzBuzzService",() => {
 
 
     });
-});
+
+    test("3 -> #2 Validate the functionality of FizzBuzzService IN NUMBER",() => {
+        //Test for check to be not undefined
+        expect(FizzBuzzService.applyValidationInNumber(10)).not.toBeUndefined();
+        //Test for cases with modules differents than 0 using 3 or 5 as divisors
+        expect(FizzBuzzService.applyValidationInNumber(1)).toBe(1);
+        //Test for cases with modules equal to 0 using 3 as a divisor
+        expect(FizzBuzzService.applyValidationInNumber(9)).toBe("FIZZ");
+        //Test for cases with modules equal to 0 using 5 as a divisor
+        expect(FizzBuzzService.applyValidationInNumber(10)).toBe("BUZZ");
+        //Test for cases with modules equal to 0 using 3 and 5 as a divisor
+        expect(FizzBuzzService.applyValidationInNumber(15)).toBe("FIZZBUZZ");
+
+    })
+
+
+
+
+});//Final
