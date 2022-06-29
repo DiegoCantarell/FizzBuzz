@@ -54,6 +54,6 @@ console.log(resultAmount);
 
 
 console.log("\tResultado #4\n");
-const resultFizzBuzzService = ExplorerController.getFizzBuzzService(15)
+const resultFizzBuzzService = ExplorerController.getFizzBuzzService(15);
 console.log(resultFizzBuzzService);
 

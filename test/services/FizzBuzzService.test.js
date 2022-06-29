@@ -87,7 +87,7 @@ describe("3. Test for FizzBuzzService",() => {
         //Test for cases with modules equal to 0 using 3 and 5 as a divisor
         expect(FizzBuzzService.applyValidationInNumber(15)).toBe("FIZZBUZZ");
 
-    })
+    });
 
 
 
