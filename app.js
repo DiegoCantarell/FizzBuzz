@@ -51,3 +51,9 @@ console.log(resultExplorerControllerUsernamesByMission);
 console.log("\tResultado #3\n");
 const resultAmount = ExplorerController.getExplorersAmountByMission("node");
 console.log(resultAmount);
+
+
+console.log("\tResultado #4\n");
+const resultFizzBuzzService = ExplorerController.getFizzBuzzService(15)
+console.log(resultFizzBuzzService);
+
