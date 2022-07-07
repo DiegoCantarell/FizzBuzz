@@ -1,6 +1,6 @@
 # FizzBuzz Project 
- 
-![Screenshot from 2022-07-07 14-02-56](https://user-images.githubusercontent.com/92350521/177852282-e7150e4b-c98c-4427-a274-0d9905c59e44.png)
+ ![FizzBuzzProject](https://user-images.githubusercontent.com/92350521/177856730-21c091fd-f907-41d9-ac55-5373cca495cc.png)
+
 
 
 Requirement 1: Refactoring the code base and adding Unit Test.
