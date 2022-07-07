@@ -1,4 +1,4 @@
-# FizzBuzz
+# Project FizzBuzz
 
 # Requirement 1: Refactoring the code base and adding Unit Test.
 - Functionality in classes.
