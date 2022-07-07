@@ -1,6 +1,9 @@
 # Project FizzBuzz
+ 
+![Screenshot from 2022-07-07 14-02-56](https://user-images.githubusercontent.com/92350521/177852282-e7150e4b-c98c-4427-a274-0d9905c59e44.png)
 
-# Requirement 1: Refactoring the code base and adding Unit Test.
+
+Requirement 1: Refactoring the code base and adding Unit Test.
 - Functionality in classes.
 - Directory structure.
 - Services: classes to apply logic that we need using models.
