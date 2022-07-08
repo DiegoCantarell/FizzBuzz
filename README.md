@@ -1,6 +1,9 @@
-# Project FizzBuzz
+# FizzBuzz Project 
+ ![FizzBuzzProject](https://user-images.githubusercontent.com/92350521/177856730-21c091fd-f907-41d9-ac55-5373cca495cc.png)
 
-# Requirement 1: Refactoring the code base and adding Unit Test.
+
+
+Requirement 1: Refactoring the code base and adding Unit Test.
 - Functionality in classes.
 - Directory structure.
 - Services: classes to apply logic that we need using models.
@@ -20,4 +23,6 @@
 | `localhost:3000/v1/explorers/amount/:mission` | `localhost:3000/v1/explorers/amount/node` | Get the explorers quantity based in the mission you sent (node)  |
 | `localhost:3000/v1/explorers/usernames/:mission` | `localhost:3000/v1/explorers/usernames/node` | Get the usernames list  based in the mission you sent (node) |
 
+
+---> Developing ...
 
