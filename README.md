@@ -23,6 +23,5 @@ Requirement 1: Refactoring the code base and adding Unit Test.
 | `localhost:3000/v1/explorers/amount/:mission` | `localhost:3000/v1/explorers/amount/node` | Get the explorers quantity based in the mission you sent (node)  |
 | `localhost:3000/v1/explorers/usernames/:mission` | `localhost:3000/v1/explorers/usernames/node` | Get the usernames list  based in the mission you sent (node) |
 
-
----> Developing ...
+## 'Readme' development documentation in progress ...
 
